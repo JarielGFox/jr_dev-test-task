@@ -13,7 +13,8 @@ const Card = ({ product }) => {
         <p className="card-text">$ {product.prices[0].amount}</p>
         <p className="card-text">{product.brand}</p>
         <p className="card-text">Category: {product.category}</p>
-        <button className="btn btn-primary">Go fuck yourself</button>
+        <button className="btn btn-primary me-1">Add to cart</button>
+        <button className="btn btn-danger">X</button>
       </div>
     </div>
   );
